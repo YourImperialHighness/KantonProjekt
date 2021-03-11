@@ -22,6 +22,7 @@ public class Kanton extends Application {
 		view.start();
 		
 		
+		
 	}
 
 }
