@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX14"/>
-=======
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
->>>>>>> branch 'main' of https://github.com/YourImperialHighness/KantonProjekt.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
