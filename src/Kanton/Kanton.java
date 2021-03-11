@@ -4,15 +4,23 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 
 public class Kanton extends Application {
+	private Kanton_Model model;
+	private Kanton_View view;
+	private Kanton_Controller controller;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		launch();
 
 	}
 
 	@Override
-	public void start(Stage arg0) throws Exception {
-		// TODO Auto-generated method stub
+	public void start(Stage primaryStage) throws Exception {
+		model = new Kanton_Model ();
+		view = new Kanton_View(primaryStage, model);
+		controller = new Kanton_Controller(model, view);
+		
+		view.start();
+		
 		
 	}
 
